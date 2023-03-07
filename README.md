@@ -6,11 +6,11 @@ This project uses Python and Selenium WebDriver to automate the functionalities 
 4.	Place order page
    
 Getting Started
-  Prerequisites
-	1.Python 3.11
-        2.PyCharm 2022.3.2 (Community Edition)
-        3.Selenium WebDriver
-        4.ChromeDriver
+Prerequisites
+1.Python 3.11
+2.PyCharm 2022.3.2 (Community Edition)
+3.Selenium WebDriver
+4.ChromeDriver
 
 Installation
 1.	Install Python 3.x from the official website: https://www.python.org/downloads/
@@ -20,9 +20,9 @@ Installation
 4.	Extract the downloaded file and copy the chromedriver.exe file to a location on your system.
 
 Running the Tests
-	1.Clone this repository to your local system.
-	2.Open the project in PyCharm.
-	3.Navigate to the tests directory and open the test_demoblaze.py file.
-	4.In the setUp() function, update the chromedriver_path variable to the location of the chromedriver.exe file on your system.
-	5.Run the test_demoblaze.py file.
-	6.The automated tests will now run and you can see the results in the PyCharm console.
+1.Clone this repository to your local system.
+2.Open the project in PyCharm.
+3.Navigate to the tests directory and open the test_demoblaze.py file.
+4.In the setUp() function, update the chromedriver_path variable to the location of the chromedriver.exe file on your system.
+5.Run the test_demoblaze.py file.
+6.The automated tests will now run and you can see the results in the PyCharm console.
