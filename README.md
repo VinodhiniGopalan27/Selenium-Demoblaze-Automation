@@ -7,11 +7,11 @@ This project uses Python and Selenium WebDriver to automate the functionalities 
    
 Getting Started
   Prerequisites
-    1.Python 3.11
-    2.PyCharm 2022.3.2 (Community Edition)
-    3.Selenium WebDriver
-    4.ChromeDriver
-  
+	1.Python 3.11
+   2.PyCharm 2022.3.2 (Community Edition)
+   3.Selenium WebDriver
+   4.ChromeDriver
+
 Installation
 1.	Install Python 3.x from the official website: https://www.python.org/downloads/
 2.	Install Selenium WebDriver by running the following command in your command prompt/terminal:
