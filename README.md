@@ -26,3 +26,5 @@ Running the Tests
 4.In the setUp() function, update the chromedriver_path variable to the location of the chromedriver.exe file on your system.
 5.Run the test_demoblaze.py file.
 6.The automated tests will now run and you can see the results in the PyCharm console.
+
+
