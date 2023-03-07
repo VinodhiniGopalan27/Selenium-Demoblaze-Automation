@@ -4,6 +4,8 @@ This project uses Python and Selenium WebDriver to automate the functionalities 
 2.	Login page
 3.	Cart page
 4.	Place order page
+
+Author : VinodhiniGopalan27
    
 Getting Started
 Prerequisites
