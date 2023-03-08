@@ -11,16 +11,4 @@ Functional Test Scenarios for Login Page:
 10.	Verify that once logged in, clicking the back button doesn’t log out the user.
 11.	Verify that the reset button functionality is on the login page. Clicking on it should clear the textbox’s content.
 
-Test Scenarios for Adding items in the Shopping Cart:
-1.	Verify that on the home page, the user can click the link to the desired product (i.e., Nokia Lumia 1520) and view the product description and price.
-2.	Check whether the Cart button is seen on the product display page.
-3.	Verify the Add button is clickable or not.
-4.	Verify that the user can add one or more products to the cart.
-5.	Verify that that user sees the success message “Product added” when clicking the add button.
-6.	Check on adding the new products to the cart, the count is increasing.
-7.	Verify whether the same item can be added multiple times to the cart.
-8.	Verify that the user can see the previously added products in the cart page every time he signs in into Demoblaze.
-9.	Check whether the page redirects to the product detail page when clicking on the product in the shopping cart.
-10.	Verify that the max limit to the number of products a user can add into the cart.
-11.	Verify that the user can change the quantity of the added items.
-12.	Verify that the user can check the sequence order of the items as per the items added to the cart.
+
