@@ -21,15 +21,23 @@ Installation
 3.	Download ChromeDriver from the official website: https://sites.google.com/a/chromium.org/chromedriver/downloads
 4.	Extract the downloaded file and copy the chromedriver.exe file to a location on your system.
 
-Running the Tests
-1.Clone the Github repository to your local machine. You can use the following command in the terminal:
+Getting Started:
+Run the tests:
+1. Clone the Github repository to your local machine. You can use the following command in the terminal:
       git clone <repository URL>
-2.Open Pycharm and create a new project.
-3.In the project directory, go to File > New > Module. Name the module main.py.
-4.Copy the contents of the main.py file from the Github repository and paste it into the main.py file in Pycharm.
-5.Open the terminal in Pycharm and navigate to the directory where main.py is located.
-6.Run the test cases using the following command:
-   python main.py
+2. Create a new PyCharm project: Once the project is cloned, create a new PyCharm project by selecting "File" > "New Project".
+   Choose a location for your project. Click "Create".
+3. Open the project: Once the project is created, open the project directory in PyCharm by selecting "File" > "Open". Navigate to the directory where you cloned the project and select the root directory of the project.
+4. Install dependencies:Install the dependencies before you can run the test cases by opening a terminal within PyCharm (by selecting "Terminal" from the bottom toolbar) and running the following command 
+    pip install -r requirements.txt
+5. Run the test cases from the main.py file:  You can right-click on main.py in the project directory and select "Run 'main'" from the context menu.
+This will run the test cases from the main.py file and display the results in the PyCharm console.
+
+
+
+
+
+
 
 
 
