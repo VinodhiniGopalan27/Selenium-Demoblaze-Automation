@@ -24,7 +24,7 @@ class LoginTestCase(unittest.TestCase):
         driver = self.driver
         username = driver.find_element(By.ID, "loginusername")
         WebDriverWait(driver, 5).until(EC.visibility_of(username))
-        username.send_keys("Gvino27")
+        username.send_keys("Gvino")
         password = driver.find_element(By.ID, "loginpassword")
         WebDriverWait(driver, 5).until(EC.visibility_of(password))
         password.send_keys("123")
