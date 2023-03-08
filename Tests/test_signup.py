@@ -24,7 +24,7 @@ class SignUpTestCase(unittest.TestCase):
         signup.click()
         username = driver.find_element(By.ID, "sign-username")
         WebDriverWait(driver, 5).until(EC.visibility_of(username))
-        username.send_keys("Gvino1")
+        username.send_keys("Gvino2")
         password = driver.find_element(By.ID, "sign-password")
         WebDriverWait(driver, 5).until(EC.visibility_of(password))
         password.send_keys("123")
