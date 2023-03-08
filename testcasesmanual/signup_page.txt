@@ -1,4 +1,5 @@
 Test Scenarios for Sign Up Page of Demoblaze:
+
 1.	Verify the text fields for Username and Password on the Sign-up page are visible, aligned and in proportion to UI.
 2.	Verify that all the fields such as Username, Password have a valid place holder.
 3.	Check validation on Username text field by entering alphabets, numbers and special characters.
@@ -15,10 +16,4 @@ Test Scenarios for Sign Up Page of Demoblaze:
 14.	Verify that clicking signup button after entering the valid username and password submits the data to the server. 
 15.	Verify the page has both Signup and close buttons at the end and they’re clickable.
 16.	Verify that clicking the Close button at the end closes the signup window.
-Non-Functional Test Scenarios for Login Page:
-1.	Verify that the username and password textboxes are present on the Login page of Demoblaze.
-2.	Verify that the size, color, and UI of the two fields are as per the specifications.
-3.	Verify that as soon as the login page opens, by default the cursor should remain on the username textbox.
-4.	Verify that the user enters the values to both the fields.
-5.	Check that when the user clicks on the reset button all the entered data in fields get clear or not.
-6.	Verify the Login and Close button at the end are clickable.
+
