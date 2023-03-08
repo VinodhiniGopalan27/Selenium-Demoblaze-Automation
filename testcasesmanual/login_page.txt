@@ -11,4 +11,12 @@ Functional Test Scenarios for Login Page:
 10.	Verify that once logged in, clicking the back button doesn’t log out the user.
 11.	Verify that the reset button functionality is on the login page. Clicking on it should clear the textbox’s content.
 
+Non-Functional Test Scenarios for Login Page:
+1.	Verify that the username and password textboxes are present on the Login page of Demoblaze.
+2.	Verify that the size, color, and UI of the two fields are as per the specifications.
+3.	Verify that as soon as the login page opens, by default the cursor should remain on the username textbox.
+4.	Verify that the user enters the values to both the fields.
+5.	Check that when the user clicks on the reset button all the entered data in fields get clear or not.
+6.	Verify the Login and Close button at the end are clickable.
+
 
