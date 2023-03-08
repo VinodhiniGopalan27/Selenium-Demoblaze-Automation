@@ -1,0 +1,5 @@
+The following for the Prerequisites for running the tests:
+1.Python 3.11
+2.PyCharm 2022.3.2
+3.Selenium WebDriver
+4.ChromeDriver
