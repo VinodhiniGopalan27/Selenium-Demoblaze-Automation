@@ -22,11 +22,16 @@ Installation
 4.	Extract the downloaded file and copy the chromedriver.exe file to a location on your system.
 
 Running the Tests
-1.Clone this repository to your local system.
-2.Open the project in PyCharm.
-3.Navigate to the tests directory and open the test_demoblaze.py file.
-4.In the setUp() function, update the chromedriver_path variable to the location of the chromedriver.exe file on your system.
-5.Run the test_demoblaze.py file.
-6.The automated tests will now run and you can see the results in the PyCharm console.
+1.Clone the Github repository to your local machine. You can use the following command in the terminal:
+      git clone <repository URL>
+2.Open Pycharm and create a new project.
+3.In the project directory, go to File > New > Module. Name the module main.py.
+4.Copy the contents of the main.py file from the Github repository and paste it into the main.py file in Pycharm.
+5.Open the terminal in Pycharm and navigate to the directory where main.py is located.
+6.Run the test cases using the following command:
+   python main.py
+
+
+
 
 
