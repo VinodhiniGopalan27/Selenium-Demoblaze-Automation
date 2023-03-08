@@ -1,0 +1,18 @@
+Non-Functional Test Scenarios for Placing Order:
+1.	Verify the text fields for Name, Country, City and Credit card details on the place order page are visible and aligned as per the UI requirement.
+2.	Verify that the user enters the values to mandatory fields like Name and Credit Card details.
+3.	Verify that as soon as the login page opens, by default the cursor should remain on the username textbox.
+4.	Check that the purchase and close button name, font and size are as per the requirement or not.
+5.	Verify that the “place order” button is clickable.
+6.	Verify that clicking the Close button at the end closes the place order window.
+
+Functional Test Scenarios for Placing Order:
+1.	Verify that the user can place the order by entering the text fields (Name, Country, City and Credit Card details) valid name, count and clicking on the ‘Purchase’ button.
+2.	Verify that user gets the success message saying, “Thank you for your purchase”.
+3.	Verify whether the user will not be able to place the order without providing Name and Credit Card details.
+4.	Verify that the user gets the message “Please fill out the name or credit card details when he fails to provide values allows for either one of the fields.
+5.	Verify that the Order Id, Name, USD price, Card No and Data are displayed in the pop window after clicking purchase button.
+6.	Check that the “Order Id’ gets generated after successful every order.
+7.	Check that correct date is displayed after clicking purchase button.
+8.	Verify that clicking purchase button after entering the valid name and card details submits the data to the server. 
+9.	Verify that clicking the Close button closes the cart window.
