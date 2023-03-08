@@ -9,13 +9,13 @@ Author : VinodhiniGopalan27
    
 Getting Started
 Prerequisites
-1.Python 3.11
+1.Python 3.11(64 bit)
 2.PyCharm 2022.3.2 (Community Edition)
 3.Selenium WebDriver
 4.ChromeDriver
 
 Installation
-1.	Install Python 3.x from the official website: https://www.python.org/downloads/
+1.	Install Python 3.11 from the official website: https://www.python.org/downloads/
 2.	Install Selenium WebDriver by running the following command in your command prompt/terminal:
               pip install selenium
 3.	Download ChromeDriver from the official website: https://sites.google.com/a/chromium.org/chromedriver/downloads
