@@ -24,7 +24,7 @@ Installation
 Getting Started:
 Run the tests:
 1. Clone the Github repository to your local machine. You can use the following command in the terminal:
-      git clone <repository URL>
+      git clone <https://github.com/VinodhiniGopalan27/Selenium-Demoblaze-Automation.git>
 2. Create a new PyCharm project: Once the project is cloned, create a new PyCharm project by selecting "File" > "New Project".
    Choose a location for your project. Click "Create".
 3. Open the project: Once the project is created, open the project directory in PyCharm by selecting "File" > "Open". Navigate to the directory where you cloned the project and select the root directory of the project.
