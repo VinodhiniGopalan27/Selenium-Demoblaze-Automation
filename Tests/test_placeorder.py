@@ -7,23 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-class CartTestCase(unittest.TestCase):
+class TestPlaceOrder(unittest.TestCase):
     def setUp(self):
-        chromeoptions = webdriver.ChromeOptions()
-        chromeoptions.add_experimental_option("detach", True)
-        self.driver = webdriver.Chrome(options=chromeoptions,
-                                       executable_path=r"C:\Users\vinod\Downloads\chromedriver_win32\chromedriver.exe")
-        self.url = "https://www.demoblaze.com/"
-
-    def tearDown(self):
-        self.driver.quit()
-
-class CartTestCase(unittest.TestCase):
-    def setUp(self):
-        chromeoptions = webdriver.ChromeOptions()
-        chromeoptions.add_experimental_option("detach", True)
-        self.driver = webdriver.Chrome(options=chromeoptions,
-                                       executable_path=r"C:\Users\vinod\Downloads\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path='drivers/chromedriver')
         self.url = "https://www.demoblaze.com/"
         self.driver.get(self.url)
         login = self.driver.find_element(By.ID, "login2")
